@@ -31,4 +31,7 @@ Route::middleware([
     Route::get('/reservation', function () {
         return view('pages/reservation');
     })->name('reservation');
+    Route::get('/informations', function () {
+        return view('pages/informations');
+    })->name('informations');
 });
