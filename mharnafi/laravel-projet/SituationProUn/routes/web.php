@@ -25,4 +25,10 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+    Route::get('/aide', function () {
+        return view('pages/aide');
+    })->name('aide');
+    Route::get('/reservation', function () {
+        return view('pages/reservation');
+    })->name('reservation');
 });
