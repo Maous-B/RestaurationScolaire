@@ -16,7 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+/*
+Route::post('/banque', function () {
+    return view('welcome');
+})->name('banque');
+*/
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -34,4 +38,6 @@ Route::middleware([
     Route::get('/informations', function () {
         return view('pages/informations');
     })->name('informations');
+
+    Route::resource('user', 'App\Http\Controllers\UserController');
 });

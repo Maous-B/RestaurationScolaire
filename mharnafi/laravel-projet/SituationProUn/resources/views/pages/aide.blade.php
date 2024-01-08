@@ -7,13 +7,10 @@
 
 
 
-    <div class="py-12">
+    <div class="py-6">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <div class="p-6 lg:p-8 bg-white border-b border-gray-200">
-                    <!--
-                    <x-application-logo class="block h-12 w-auto" />
-                    !-->
                     <h1 class="mt-8 text-2xl font-medium text-gray-900">
                         AIDE : Service WEB restauration scolaire <x-eos-contact-support-o class="h-5 w-5"/>
                     </h1>
@@ -21,7 +18,15 @@
                     <p class="mt-6 text-gray-500 leading-relaxed">
                         Ici, vous pourrez recharger votre compte, réserver et changer les informations de votre compte.
                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="py-6">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
+                <div class="p-6 lg:p-8 bg-white border-b border-gray-200">
                     <h1 class="mt-8 text-2xl font-medium text-gray-900">
                         Accéder à l’application <x-bi-door-open class="h-5 w-5"/>
                     </h1>
@@ -34,13 +39,21 @@
                         <br>
                         Renseignez votre login et mot de passe et validez.
                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="py-6">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
+                <div class="p-6 lg:p-8 bg-white border-b border-gray-200">
                     <h1 class="mt-8 text-2xl font-medium text-gray-900">
-                        Réaliser un encaissement par carte bleue <x-bi-credit-card-2-back class="h-5 w-5"/>
+                        Réaliser un encaissement par carte bleue 💳
                     </h1>
 
                     <p class="mt-6 text-gray-500 leading-relaxed">
-                        Cliquez sur « Paiement » dans le menu.
+                        Cliquez sur « Informations » dans le menu.
                         <br>
                         Renseignez le montant et validez.
                         <br>
@@ -50,19 +63,26 @@
                         <br>
                         Si votre mail est renseigné, vous recevrez un mail de confirmation de l'encaissement. Pour renseigner votre mail, rendez vous dans le menu “Compte”
                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
+
+    <div class="py-6">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
+                <div class="p-6 lg:p-8 bg-white border-b border-gray-200">
                     <h1 class="mt-8 text-2xl font-medium text-gray-900">
-                        Gérer son compte <x-bi-gear-fill class="h-5 w-5"/>
+                        Gérer son compte ⚙️
                     </h1>
 
                     <p class="mt-6 text-gray-500 leading-relaxed">
-                        A partir du menu "Compte", vous pouvez :
+                        A partir du menu "Compte" (du menu déroulant de votre nom), vous pouvez :
                         <br>
                         Changer votre nom d'utilisateur
                         <br>
                         Changer votre mot de passe
-                        <br>
-                        Renseigner l’adresse email à laquelle vous recevrez les tickets de paiement
                         <br>
                         Si vous avez oublié votre nom d'utilisateur ou votre mot de passe, vous devez en demander un nouveau par mail à l'établissement
                     </p>
