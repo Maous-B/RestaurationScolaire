@@ -29,7 +29,7 @@
                         Paiement 💸
                     </h1>
 
-<!--action="route('banque')"! (mettre le "{" et "}" a la fin et au début de routebanque-->
+                    <!--action="route('banque')"! (mettre le "{" et "}" a la fin et au début de routebanque-->
                     <form method="POST" action="{{url('user/'.\Illuminate\Support\Facades\Auth::user()->id)}}">
                         @method('PUT')
                         @csrf

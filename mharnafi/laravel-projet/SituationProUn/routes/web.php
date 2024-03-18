@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Models\Reservation;
+use App\Http\Controllers\ReservationController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,11 +34,13 @@ Route::middleware([
         return view('pages/aide');
     })->name('aide');
     Route::get('/reservation', function () {
-        return view('pages/reservation');
+        $userReservations = Reservation::where('user_id', auth()->id())->get();
+        return view('pages/reservation', compact('userReservations'));
     })->name('reservation');
     Route::get('/informations', function () {
         return view('pages/informations');
     })->name('informations');
 
     Route::resource('user', 'App\Http\Controllers\UserController');
+    Route::post('/reservations', [ReservationController::class, 'store'])->name('reservations.store');
 });
