@@ -33,7 +33,14 @@
                         @if ($userReservations->isNotEmpty())
                             <ul>
                                 @foreach ($userReservations as $reservation)
-                                    <li>Date de réservation : {{ $reservation->date }}</li>
+                                    <li>
+                                        Date de réservation : {{ $reservation->date }}
+                                        <form method="POST" action="{{ route('reservations.destroy', $reservation->id) }}">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit" class="text-red-500">Supprimer</button>
+                                        </form>
+                                    </li>
                                     <!-- Ajoute d'autres informations de réservation si nécessaire -->
                                 @endforeach
                             </ul>

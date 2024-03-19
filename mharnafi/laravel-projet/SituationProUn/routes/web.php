@@ -43,4 +43,6 @@ Route::middleware([
 
     Route::resource('user', 'App\Http\Controllers\UserController');
     Route::post('/reservations', [ReservationController::class, 'store'])->name('reservations.store');
+    Route::delete('/reservations/{id}', [ReservationController::class, 'destroy'])->name('reservations.destroy');
+
 });
