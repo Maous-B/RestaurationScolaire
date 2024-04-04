@@ -1,6 +1,6 @@
 ![image](https://github.com/Maous-B/RestaurationScolaire/assets/79797065/c0216616-9b2e-476c-bd1a-69c80c403196)
 <p align="center">
-RestaurationScolaire est un projet en Laravel   <img width=40px height=40px src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" /> de fin d'année qui consiste à faire des réservations pour la cantine
+RestaurationScolaire est un projet en Laravel <img width=40px height=40px src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" /> de fin d'année qui consiste à faire des réservations pour la cantine
 </p>
 
 ## Documentation
