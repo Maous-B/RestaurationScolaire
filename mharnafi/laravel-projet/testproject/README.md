@@ -7,7 +7,7 @@
 ## Documentation
 
 ### ReservationController.php
-```
+```php
 class ReservationController extends Controller
 {
 
