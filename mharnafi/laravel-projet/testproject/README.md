@@ -1,5 +1,4 @@
-<p align="center">![image](https://github.com/Maous-B/RestaurationScolaire/assets/79797065/c0216616-9b2e-476c-bd1a-69c80c403196)
-</p>
+![image](https://github.com/Maous-B/RestaurationScolaire/assets/79797065/c0216616-9b2e-476c-bd1a-69c80c403196)
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
