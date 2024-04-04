@@ -21,7 +21,6 @@ class UserController extends Controller
 
     public function update(Request $request, string $id)
     {
-        //dd($id);
         $utilisateur = User::findOrFail($id);
         $utilisateur->solde += $request->get('amount');
         $utilisateur->save();
