@@ -4,9 +4,9 @@ RestaurationScolaire est un projet en Laravel <img width=40px height=40px src="h
 </p>
 
 ## Documentation
-Permet de récupérer l'argent sur le compte de l'utilisateur et le stocker
 ### UserController.php
 
+Permet de récupérer l'argent sur le compte de l'utilisateur et le stocker
 ```php
 class UserController extends Controller
 {
@@ -29,9 +29,9 @@ class UserController extends Controller
     }
 }
 ```
+### ReservationController.php
 
 Système de réservation (Ajout de réservation / suppression
-### ReservationController.php
 ```php
 class ReservationController extends Controller
 {
