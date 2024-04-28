@@ -12,7 +12,7 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <div class="p-6 lg:p-8 bg-white border-b border-gray-200">
                     <h1 class="mt-8 text-2xl font-medium text-gray-900">
-                        AIDE : Service WEB restauration scolaire <x-eos-contact-support-o class="h-5 w-5"/>
+                        AIDE : Service WEB restauration scolaire
                     </h1>
 
                     <p class="mt-6 text-gray-500 leading-relaxed">
@@ -28,7 +28,7 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <div class="p-6 lg:p-8 bg-white border-b border-gray-200">
                     <h1 class="mt-8 text-2xl font-medium text-gray-900">
-                        Accéder à l’application <x-bi-door-open class="h-5 w-5"/>
+                        Accéder à l’application
                     </h1>
 
 
